@@ -1,15 +1,14 @@
-package com.ravi.sparkspring.poc.web.controller;
+package in.wynk.spark.web.controller;
 
 import java.util.List;
 
+import in.wynk.spark.beans.Count;
+import in.wynk.spark.job.WordCountJob;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.ravi.sparkspring.poc.beans.Count;
-import com.ravi.sparkspring.poc.job.WordCountJob;
 
 @RequestMapping("api")
 @Controller

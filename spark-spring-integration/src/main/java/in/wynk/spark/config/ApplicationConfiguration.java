@@ -1,4 +1,4 @@
-package com.ravi.sparkspring.poc.config;
+package in.wynk.spark.config;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;

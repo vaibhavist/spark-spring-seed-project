@@ -1,1 +1,5 @@
+#for cluster mode
 ./spark-submit --master spark://localhost:7077 --deploy-mode cluster {path}/spark-spring-integration/target/spark-spring-seed-0.0.1-SNAPSHOT.jar
+
+#for standalone mode
+./spark-submit --master spark://localhost:7077 {path}/spark-spring-integration/target/spark-spring-seed-0.0.1-SNAPSHOT.jar

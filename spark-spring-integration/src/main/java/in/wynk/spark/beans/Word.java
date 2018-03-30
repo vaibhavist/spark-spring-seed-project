@@ -1,4 +1,4 @@
-package com.ravi.sparkspring.poc.beans;
+package in.wynk.spark.beans;
 
 public class Word {
     private String word;

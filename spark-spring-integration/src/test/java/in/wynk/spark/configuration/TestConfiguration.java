@@ -1,4 +1,4 @@
-package com.ravi.sparkspring.poc.configuration;
+package in.wynk.spark.configuration;
 
 import org.apache.spark.SparkConf;
 import org.springframework.context.annotation.Bean;

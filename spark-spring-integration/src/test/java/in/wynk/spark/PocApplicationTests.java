@@ -1,4 +1,4 @@
-package com.ravi.sparkspring.poc;
+package in.wynk.spark;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

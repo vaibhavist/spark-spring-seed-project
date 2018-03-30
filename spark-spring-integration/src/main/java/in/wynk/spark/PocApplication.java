@@ -1,11 +1,7 @@
-package com.ravi.sparkspring.poc;
+package in.wynk.spark;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.ravi.sparkspring.poc.job.WordCountJob;
 
 @SpringBootApplication
 public class PocApplication /*implements CommandLineRunner*/ {

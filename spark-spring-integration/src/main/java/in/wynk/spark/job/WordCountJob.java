@@ -1,4 +1,4 @@
-package com.ravi.sparkspring.poc.job;
+package in.wynk.spark.job;
 
 import static org.apache.spark.sql.functions.col;
 
@@ -14,9 +14,9 @@ import org.apache.spark.sql.SparkSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.ravi.sparkspring.poc.beans.Count;
-import com.ravi.sparkspring.poc.beans.Word;
-import com.ravi.sparkspring.poc.config.ApplicationConfiguration;
+import in.wynk.spark.beans.Count;
+import in.wynk.spark.beans.Word;
+import in.wynk.spark.config.ApplicationConfiguration;
 
 @Component
 public class WordCountJob {
